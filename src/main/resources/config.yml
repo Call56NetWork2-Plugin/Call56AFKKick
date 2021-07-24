@@ -12,7 +12,7 @@ Config:
 
   # kick_warn_delayは、プレーヤーがメッセージを受け取るまでにかかる時間です
   # 彼がAFKであることメッセージが必要ない場合は、これをkick_delayよりも大きい数値に設定します。
-  kick_warn_delay: 300 # (= minutes | full number - no comma)
+  kick_warn_delay: 30 # (= minutes | full number - no comma)
 
   # プレイヤーがAFKであると警告されたときのメッセージ
   kick_warn_msg: "You're about to get kicked for AFK."
@@ -23,7 +23,7 @@ Config:
   kick_not_afk_msg: "AFKじゃないことを証明しました！"
 
   # PlayerがKickまでの時間を設定する(Minutes)
-  kick_delay: 600 # (= minutes | full number - no comma)
+  kick_delay: 60 # (= minutes | full number - no comma)
 
 
 

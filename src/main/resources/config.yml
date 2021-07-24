@@ -1,0 +1,59 @@
+Config:
+  # 各設定の簡単な説明があります。
+  # カラーコードが使えるよ、これらは、このconfig.ymlの下にある。
+
+  # プレフィックスは、メッセージの前に表示されるものです。次のメッセージのプレフィックスが表示されます。
+  # kick_warn_msgおよびkick_msg。プレフィックスが不要な場合は、[]に設定してください。
+  prefix: "§8§l[§c§lAFK-KICK§8§l]"
+
+
+  # kick_msgはキックの理由
+  kick_msg: "§cあなたはAFKだったので蹴られました"
+
+  # kick_warn_delayは、プレーヤーがメッセージを受け取るまでにかかる時間です
+  # 彼がAFKであることメッセージが必要ない場合は、これをkick_delayよりも大きい数値に設定します。
+  kick_warn_delay: 300 # (= minutes | full number - no comma)
+
+  # プレイヤーがAFKであると警告されたときのメッセージ
+  kick_warn_msg: "You're about to get kicked for AFK."
+
+  # あなたがAFKではないことを確認するためのクリック可能なメッセージ。
+  kick_warn_msg_afk: "§8[§aAFK-拒否ボタン§8]"
+
+  kick_not_afk_msg: "AFKじゃないことを証明しました！"
+
+  # PlayerがKickまでの時間を設定する(Minutes)
+  kick_delay: 600 # (= minutes | full number - no comma)
+
+
+
+  # 警告メッセージが表示されたら音を鳴らす（true/false）
+  sound_on_get_warn: true
+
+  # メッセージ警告メッセージが確認されたら音を鳴らす（true/false）
+  sond_on_notafk: true
+
+  # ConfigReloadページのタイトル
+  config_values: "§3Config.yml値"
+
+  # メッセージをリロード
+  config_reload: "§aConfig.ymlが正常にリロードされました"
+
+  config_noperm: "§c権限なし"
+
+  # Colorcodes
+  # Dark Red = §4      |  Dark Blue = §1
+  # Red = §c           |  Blue = §9
+  # Gold = §6          |  Light Purple = §d
+  # Yellow = §e        |  Dark Purple = §5
+  # Dark Green = §2    |  White = §f
+  # Green = §a         |  Gray = §7
+  # Aqua = §b          |  Dark Gray = §8
+  # Dark Aqua = §3     |  Black = §0
+
+  # List of Format Codes
+
+  # Obfuscated = §k    | Underline = §n
+  # Bold = §l          | Italic = §o
+  # Strikethrough = §m | Reset all = §r
+

@@ -1,0 +1,14 @@
+name: Call56AfkKick
+version: ${project.version}
+main: com.kinoko2k.main.call56afkkick.Call56AfkKick
+api-version: 1.17
+authors: [ Kinoko_2K ]
+
+commands:
+  noafk:
+    description: §3Confirm that you are not AFK.
+    usage: /noafk
+  afkreload:
+    description: §3Reload Config
+    usage: /afkreload
+    permission: call56afk.reload
